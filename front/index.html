@@ -1,17 +1,671 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP1 - Git GitHub Vercel</title>
+
+    <meta name="description"
+          content="Portfolio de Badr Nachid, étudiant en Ingénierie Logicielle à l'ESISA.">
+
+    <title>Badr Nachid | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1 id="message"></h1>
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#accueil" class="logo">
+                Badr<span>.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="menu-toggle" class="menu-toggle">
+                ☰
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= ACCUEIL ================= -->
+
+        <section id="accueil" class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="welcome">
+                        BIENVENUE SUR MON PORTFOLIO
+                    </p>
+
+                    <!-- Le texte est généré par JavaScript -->
+                    <h1 id="message"></h1>
+
+                    <h2>
+                        Étudiant en Ingénierie Logicielle
+                    </h2>
+
+                    <p class="hero-description">
+                        Passionné par le développement logiciel,
+                        les technologies web et la conception
+                        de solutions informatiques.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projets" class="btn primary-btn">
+                            Voir mes projets
+                        </a>
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Me contacter
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHOTO À DROITE -->
+
+                <div class="hero-image">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/profile.png"
+                            alt="Photo professionnelle de Badr Nachid"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= À PROPOS ================= -->
+
+        <section id="apropos" class="section">
+
+            <div class="section-title">
+
+                <p>MON PARCOURS</p>
+
+                <h2>À propos de moi</h2>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        Je m'appelle <strong>Badr Nachid</strong>,
+                        j'ai 20 ans et je suis actuellement étudiant
+                        en troisième année d'Ingénierie Logicielle
+                        à l'ESISA.
+                    </p>
+
+                    <p>
+                        Après l'obtention de mon baccalauréat,
+                        j'ai intégré l'École Supérieure de Technologie
+                        de Fès, où j'ai suivi une formation en
+                        Ingénierie des Données.
+                    </p>
+
+                    <p>
+                        Mon parcours m'a permis de développer des
+                        connaissances en programmation, développement
+                        web, bases de données et technologies
+                        informatiques.
+                    </p>
+
+                    <p>
+                        Mon objectif est de continuer à développer
+                        mes compétences et de mettre mes connaissances
+                        en pratique à travers des projets concrets
+                        dans le domaine de l'ingénierie logicielle.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="info-item">
+
+                        <span>Nom</span>
+
+                        <strong>
+                            Badr Nachid
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span>Âge</span>
+
+                        <strong>
+                            20 ans
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span>Formation actuelle</span>
+
+                        <strong>
+                            Ingénierie Logicielle
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span>Établissement</span>
+
+                        <strong>
+                            ESISA
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FORMATION ================= -->
+
+        <section id="formation" class="section section-alt">
+
+            <div class="section-title">
+
+                <p>MON PARCOURS ACADÉMIQUE</p>
+
+                <h2>Formation</h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <!-- ESISA -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            Actuellement
+                        </span>
+
+                        <h3>
+                            3ᵉ année — Ingénierie Logicielle
+                        </h3>
+
+                        <h4>
+                            ESISA
+                        </h4>
+
+                        <p>
+                            Formation en ingénierie logicielle,
+                            développement logiciel, programmation
+                            et technologies informatiques.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EST FÈS -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            Après le baccalauréat
+                        </span>
+
+                        <h3>
+                            Ingénierie des Données
+                        </h3>
+
+                        <h4>
+                            École Supérieure de Technologie de Fès
+                        </h4>
+
+                        <p>
+                            Formation orientée vers les données,
+                            la programmation, les bases de données
+                            et les technologies informatiques.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COMPÉTENCES ================= -->
+
+        <section id="competences" class="section">
+
+            <div class="section-title">
+
+                <p>MES CONNAISSANCES</p>
+
+                <h2>Compétences</h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        HTML
+                    </div>
+
+                    <h3>
+                        HTML
+                    </h3>
+
+                    <p>
+                        Création et structuration de pages web
+                        modernes et sémantiques.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        CSS
+                    </div>
+
+                    <h3>
+                        CSS
+                    </h3>
+
+                    <p>
+                        Mise en forme, design et création
+                        d'interfaces responsives.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        JS
+                    </div>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <p>
+                        Création d'interactions et de
+                        fonctionnalités dynamiques.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        DB
+                    </div>
+
+                    <h3>
+                        Bases de données
+                    </h3>
+
+                    <p>
+                        Connaissances en gestion et manipulation
+                        des données.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        GIT
+                    </div>
+
+                    <h3>
+                        Git & GitHub
+                    </h3>
+
+                    <p>
+                        Gestion des versions et publication
+                        de projets.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        DEV
+                    </div>
+
+                    <h3>
+                        Développement logiciel
+                    </h3>
+
+                    <p>
+                        Conception et développement de solutions
+                        informatiques.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJETS ================= -->
+
+        <section id="projets" class="section section-alt">
+
+            <div class="section-title">
+
+                <p>MES RÉALISATIONS</p>
+
+                <h2>Projets</h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJET 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            TP1 — Portfolio personnel
+                        </h3>
+
+                        <p>
+                            Conception et développement d'un portfolio
+                            personnel permettant de présenter mon
+                            parcours académique, mes compétences,
+                            mes projets et mes coordonnées.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJET 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Projets académiques
+                        </h3>
+
+                        <p>
+                            Réalisation de travaux pratiques et de
+                            projets dans le cadre de mon parcours
+                            académique en informatique et en
+                            ingénierie logicielle.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Programmation</span>
+                            <span>Développement</span>
+                            <span>Informatique</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJET 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Projets à venir
+                        </h3>
+
+                        <p>
+                            De nouveaux projets seront ajoutés
+                            progressivement au cours de mon
+                            parcours en ingénierie logicielle.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Coming Soon</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-title">
+
+                <p>N'HÉSITEZ PAS À ME CONTACTER</p>
+
+                <h2>Contact</h2>
+
+            </div>
+
+
+            <div class="contact-container">
+
+
+                <div class="contact-text">
+
+                    <h3>
+                        Une question ou une opportunité ?
+                    </h3>
+
+                    <p>
+                        Je suis disponible pour échanger concernant
+                        des projets, des opportunités de stage ou
+                        toute collaboration dans le domaine du
+                        développement logiciel.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-info">
+
+
+                    <!-- EMAIL -->
+
+                    <a
+                        href="mailto:badrnachid80@gmail.com"
+                        class="contact-card"
+                    >
+
+                        <div class="contact-icon">
+                            @
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Email
+                            </span>
+
+                            <strong>
+                                badrnachid80@gmail.com
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- TÉLÉPHONE -->
+
+                    <a
+                        href="tel:+212616090772"
+                        class="contact-card"
+                    >
+
+                        <div class="contact-icon">
+                            ☎
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Téléphone
+                            </span>
+
+                            <strong>
+                                0616090772
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                Badr<span>.</span>
+            </div>
+
+            <p>
+                © 2026 Badr Nachid — Portfolio personnel
+            </p>
+
+            <div class="footer-links">
+
+                <a href="#accueil">
+                    Accueil
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
